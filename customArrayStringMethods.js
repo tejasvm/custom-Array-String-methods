@@ -100,7 +100,7 @@ Array.prototype.customFind = function(callback, thisarg) {
             if (value == true) {
                 return array[i]
             } else {
-                return -1
+                return undefined
             }
         }
     }
